@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sunlicense",
+  "description": "The official SunLicense plugin for Claude Code: license checks for your software and license management through MCP.",
+  "owner": {
+    "name": "SunLicense",
+    "url": "https://sunlicense.com"
+  },
+  "plugins": [
+    {
+      "name": "sunlicense",
+      "source": "./",
+      "description": "Add SunLicense license checks to your software and manage licenses from Claude Code."
+    }
+  ]
+}

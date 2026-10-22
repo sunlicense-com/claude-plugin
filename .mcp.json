@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sunlicense": {
+      "command": "sunlicense",
+      "args": ["mcp"]
+    }
+  }
+}
