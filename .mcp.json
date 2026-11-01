@@ -1,8 +1,8 @@
 {
   "mcpServers": {
     "sunlicense": {
-      "command": "sunlicense",
-      "args": ["mcp"]
+      "type": "http",
+      "url": "https://api.sunlicense.com/mcp"
     }
   }
 }

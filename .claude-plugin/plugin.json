@@ -1,8 +1,9 @@
 {
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "sunlicense",
-  "version": "0.1.0",
-  "description": "Add SunLicense license checks to your software, and manage products, licenses and API keys from Claude Code through the sunlicense MCP server.",
+  "version": "0.2.0",
+  "displayName": "SunLicense",
+  "description": "Add SunLicense license checks to your software, and manage products, licenses, customers and API keys from Claude through the SunLicense remote MCP server.",
   "author": {
     "name": "SunLicense",
     "url": "https://sunlicense.com"

@@ -54,11 +54,13 @@ If the `sunlicense` MCP server is connected, its `search_docs` tool searches the
 
 ## 4. Test it for real
 
-With the MCP server connected (`sunlicense mcp`, Lite and Standard plans) you can do the whole loop
-without leaving the editor: `list_products` / `create_product` and `create_policy`, `issue_license` to the
-user's own email, `create_api_key` for the app (shown once: put it in the env var, not in a file you
-commit), `sdk_snippet` for the language, and `test_validate` to check a key the way the app does.
-Destructive tools (revoke, suspend, block, merge, deactivate, revoke API key) need the user's yes first.
+With the SunLicense MCP server connected (the remote server at https://api.sunlicense.com/mcp, or
+`sunlicense mcp` from the CLI; every plan, Free has 50 tool calls a day) you can do the whole loop without
+leaving the editor: `list_products` / `create_product` and `create_policy`, `issue_license` to the user's own
+email, `create_api_key` for the app (shown once: put it in the env var, not in a file you commit),
+`sdk_snippet` for the language, and `test_validate` (CLI server only) or `sunlicense validate <key>` to check
+a key the way the app does. Destructive tools (revoke, suspend, block, merge, deactivate, revoke API key)
+need the user's yes first.
 
 Without MCP, the CLI does the same: `sunlicense validate <key>`, `sunlicense licenses issue`,
 `sunlicense keys create` (https://docs.sunlicense.com/cli/commands.md). Ask the user for a test key if
