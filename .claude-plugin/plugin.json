@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
   "name": "sunlicense",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "displayName": "SunLicense",
   "description": "Add SunLicense license checks to your software, and manage products, licenses, customers and API keys from Claude through the SunLicense remote MCP server.",
   "author": {
@@ -9,7 +9,9 @@
     "url": "https://sunlicense.com"
   },
   "homepage": "https://docs.sunlicense.com/guide/ai-assistants",
+  "privacyPolicyUrl": "https://docs.sunlicense.com/legal/privacy",
   "repository": "https://github.com/sunlicense-com/claude-plugin",
   "license": "MIT-0",
-  "keywords": ["licensing", "license-keys", "sunlicense", "mcp", "minecraft", "fivem", "desktop"]
+  "keywords": ["licensing", "license-keys", "sunlicense", "mcp", "minecraft", "fivem", "desktop"],
+  "icon": ".claude-plugin/icon.png"
 }
